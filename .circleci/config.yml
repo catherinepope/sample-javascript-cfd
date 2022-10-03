@@ -13,7 +13,7 @@ workflows:
           filters:
               branches:
                   only:
-                    - main
+                    - master
           app-name: continuous-food
 orbs:
   node: circleci/node@5.0.2
